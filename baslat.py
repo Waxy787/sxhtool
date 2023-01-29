@@ -15,7 +15,7 @@ print(ascii)
 print(f"""
 {Fore.RED}[1] DDoS            [2] IpFounder
 [3] MatrixScreen    [4] EndlossPanel
-[5] Bomber""".replace(".","\\"))
+[5] Bomber          [6] Exit""".replace(".","\\"))
 
 def sor():
 	global q
@@ -31,6 +31,8 @@ def sor():
 		import resources.endlosspanel
 	elif q == "5":
 		import sxbomber
+	elif q == "6":
+		exit()
 	else:
 		print("Something went wrong! Please Enter a Valid Number !")
 while True:
