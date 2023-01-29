@@ -32,6 +32,6 @@ def sor():
 	elif q == "5":
 		import sxbomber
 	else:
-		print("Something went wrong! Please Enter a Valid Number!")
+		print("Something went wrong! Please Enter a Valid Number !")
 while True:
 	sor()
