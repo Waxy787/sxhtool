@@ -32,7 +32,7 @@ def sor():
 	elif q == "4":
 		import resources.endlosspanel
 	elif q == "5":
-		import sxbomber
+		import resources.sxbomber
 	elif q == "6":
 		print(Fore.RED + "Bakımda...")
 	elif q == "7":
