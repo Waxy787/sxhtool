@@ -1,5 +1,5 @@
 from colorama import Fore
-
+import time
 print(Fore.GREEN)
 ascii = f"""
   ______  ___   _ _____ ___   ___  _     
@@ -13,9 +13,11 @@ ascii = f"""
 ascii = ascii.replace(".","\\")
 print(ascii)
 print(f"""
-{Fore.RED}[1] DDoS            [2] IpFounder
+{Fore.RED}
+[1] DDoS            [2] IpFounder
 [3] MatrixScreen    [4] EndlossPanel
-[5] Bomber          [6] Exit""".replace(".","\\"))
+[5] Bomber          [6] IP -> Location
+[7] Exit""".replace(".","\\"))
 
 def sor():
 	global q
@@ -32,7 +34,11 @@ def sor():
 	elif q == "5":
 		import sxbomber
 	elif q == "6":
-		exit()
+		print(Fore.RED + "Bakımda...")
+        elif q == "7":
+                print(Fore.RED + "Çıkış Yapılıyor...")
+                time.sleep(2)
+                exit()
 	else:
 		print("Something went wrong! Please Enter a Valid Number !")
 while True:
