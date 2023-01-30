@@ -36,7 +36,7 @@ def sor():
 	elif q == "6":
 		print(Fore.RED + "Bakımda...")
 	elif q == "7":
-		print(Fore.RED + "Çıkış Yapılıyor...")
+		print(Fore.RED + "Çıkış Yapılıyor... ")
 		time.sleep(2)
 		exit()
 	else:
