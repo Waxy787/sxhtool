@@ -35,10 +35,10 @@ def sor():
 		import sxbomber
 	elif q == "6":
 		print(Fore.RED + "Bakımda...")
-        elif q == "7":
-                print(Fore.RED + "Çıkış Yapılıyor...")
-                time.sleep(2)
-                exit()
+	elif q == "7":
+		print(Fore.RED + "Çıkış Yapılıyor...")
+		time.sleep(2)
+		exit()
 	else:
 		print("Something went wrong! Please Enter a Valid Number !")
 while True:
