@@ -35,7 +35,7 @@ def sor():
 		import resources.sxbomber
 	elif q == "6":
 		with open("resources/iploc.py", "w") as f:
-			f.write('''from json import loads
+			f.write(from json import loads
 from requests import get, post
 from sys import exit
 from time import sleep
@@ -111,7 +111,8 @@ def get_my_ip_server1():
     myipjson = takeip.text
     myip = str(loads(myipjson)["ip"])
     mycountry = str(loads(myipjson)["country"])
-    ipaddr = "* IP Addresi : "+myip+"\n* country : "+mycountry+""
+    ipaddr = "* IP Addresi : "+myip+"
+* country : "+mycountry+""
     return ipaddr
 
 def get_my_ip_server2():
@@ -158,12 +159,15 @@ def getmyip():
 
 print(ascii)
    
-print(f"[+] youre ip:\n{getmyip()}\n")
+print(f"[+] youre ip:
+{getmyip()}
+")
 
 while True:
         
 	try:
-		target_ip = input(str("[>] IP Geolocation [IP veya Q]\n>> "))
+		target_ip = input(str("[>] IP Geolocation [IP veya Q]
+>> "))
 
 		if target_ip.lower() == "q":
 			print("[!] Çıkış!")
