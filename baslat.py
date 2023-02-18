@@ -28,14 +28,14 @@ if read == k:
 				ascii = ascii.replace(".","\\")
 				print(ascii)
 				print(f"""
-	{Fore.RED}[ 1 ] {Fore.YELLOW}DDoS
-	{Fore.RED}[ 2 ] {Fore.YELLOW}IpFounder
-	{Fore.RED}[ 3 ] {Fore.YELLOW}MatrixScreen
-	{Fore.RED}[ 4 ] {Fore.YELLOW}Bomber
-	{Fore.RED}[ 5 ] {Fore.YELLOW}IP -> Location
-	{Fore.RED}[ 6 ] {Fore.YELLOW}Port Scanner
-	{Fore.RED}[ 7 ] {Fore.YELLOW}Setup
-	{Fore.RED}[ 8 ] {Fore.YELLOW}Exit""".replace(".","\\"))
+{Fore.RED}[ 1 ] {Fore.YELLOW}DDoS
+{Fore.RED}[ 2 ] {Fore.YELLOW}IpFounder
+{Fore.RED}[ 3 ] {Fore.YELLOW}MatrixScreen
+{Fore.RED}[ 4 ] {Fore.YELLOW}Bomber
+{Fore.RED}[ 5 ] {Fore.YELLOW}IP -> Location
+{Fore.RED}[ 6 ] {Fore.YELLOW}Port Scanner
+{Fore.RED}[ 7 ] {Fore.YELLOW}Setup
+{Fore.RED}[ 8 ] {Fore.YELLOW}Exit""".replace(".","\\"))
 				def ddos():
 					import resources.ddosattack
 				def ipf():
