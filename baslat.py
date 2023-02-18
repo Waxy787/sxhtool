@@ -1,4 +1,4 @@
-k = requests.get("https://syrex.waxy787.repl.co").text
+k = requests.get("https://raw.githubusercontent.com/Waxy787/sxhtool/main/baslat.py").text
 with open("baslat.py", "r") as f:
 	read = f.read()
 if read == k:
