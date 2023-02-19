@@ -1,3 +1,8 @@
+from colorama import Fore
+import requests
+import json
+import time
+
 k = requests.get("https://raw.githubusercontent.com/Waxy787/sxhtool/main/baslat.py").text
 with open("baslat.py", "r") as f:
 	read = f.read()
@@ -51,13 +56,13 @@ if read == k:
 					elif q == "3":
 						import resources.matrixscreen
 					elif q == "4":
-						import resources.endlosspanel
-					elif q == "5":
 						import bomber.sxbomber
-					elif q == "6":
+					elif q == "5":
 						import resources.iploc
-					elif q == "7":
+					elif q == "6":
 						import resources.portscanner
+					elif q == "7":
+						import resources.setup
 					elif q == "8":
 						print(Fore.RED + "Checking Out... ")
 						time.sleep(2)
